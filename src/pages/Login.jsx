@@ -1,7 +1,6 @@
 import React from "react"
-import Add from "../img/addAvatar.png";
 
-export const Login = () => {
+const Login = () => {
   return (
     <div className="formContainer">
       <div className="formWrapper">
@@ -17,3 +16,5 @@ export const Login = () => {
     </div>
   )
 }
+
+export default Login
